@@ -103,7 +103,7 @@ let array = [];
 
 function init() {
     array = []
-    for(let i=0;i<1500;i++){
+    for(let i=0;i<800;i++){
         let radius = Math.random()*3 +1;
         let x = Math.random()*(innerWidth-radius*2) + radius;
         let y = Math.random()*(innerHeight-radius*2) + radius;
